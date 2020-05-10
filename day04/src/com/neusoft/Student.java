@@ -1,22 +1,33 @@
 package com.neusoft;
 
-/**
- * @author Eric Lee
- * @date 2020/4/26 18:56
- * 创建了一个学生类
- */
 public class Student {
     // 成员变量
-    String name;// 姓名
-    int age; // 年龄
-    // 成员方法
-    // 爱学习的方法
-    public void study(){
-        System.out.println("Good Good Study, Day Day Up!");
-    }
-    // 吃饭的方法
-    public void eat(){
-        System.out.println("学习饿了就要吃饭");
+    private String name;
+    private int age;
+
+    // 构造方法
+    public Student() {
     }
 
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    //成员方法
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
