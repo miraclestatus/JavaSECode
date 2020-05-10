@@ -11,8 +11,11 @@ public class Test01Random {
         // Random 类用于生成伪随机数
         Random random = new Random();
         // [0, n) 的随机整数
-        int i = random.nextInt(100);
-        System.out.println(i);
+        for (int j = 0; j <10 ; j++) {
+            int i = random.nextInt(1);
+            System.out.println(i);
+        }
+
 
 
     }
