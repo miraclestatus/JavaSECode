@@ -31,6 +31,5 @@ public class StringDemo2 {
 
         System.out.println(s.substring(0,s.length()));
         System.out.println(s.substring(3, 9));
-
     }
 }
