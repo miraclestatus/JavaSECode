@@ -11,4 +11,5 @@ public class ZiGou extends FuGou{
         super();
         System.out.println("ZiGou()");
     }
+    
 }
