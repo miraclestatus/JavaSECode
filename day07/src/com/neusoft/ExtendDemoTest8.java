@@ -11,6 +11,9 @@ public class ExtendDemoTest8 {
 //        Cat cat = new Cat();
 //        cat.eatTest();
         Cat cat1 = new Cat("淘气猫");
+        cat1.equals(cat1);
+        cat1.toString();
 
+        new Object();
     }
 }

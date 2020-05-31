@@ -1,5 +1,7 @@
 package com.neusoft;
 
+import java.util.ArrayList;
+
 public class Main {
 
 //    // 继承格式
@@ -14,4 +16,5 @@ public class Main {
 ////    子类可以直接可以访问父类中非私有的属性和行为
 //// 1、继承的好处，提高代码复用性
 //// 2、类与类之间产生了关系，继承是多态的前提
+
 }
