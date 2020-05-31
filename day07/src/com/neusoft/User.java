@@ -8,6 +8,7 @@ import com.sun.corba.se.spi.presentation.rmi.IDLNameTranslator;
  */
 public class User {
     private String name;
+    // 余额
     private int money;
     public User(){
 
