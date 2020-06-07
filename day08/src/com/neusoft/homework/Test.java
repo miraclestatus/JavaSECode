@@ -13,5 +13,6 @@ public class Test {
         universe.doAnything();
         Sun sun = (Sun) universe;
         sun.shine();
+        new String()
     }
 }
