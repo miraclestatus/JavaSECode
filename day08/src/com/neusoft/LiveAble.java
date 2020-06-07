@@ -12,11 +12,18 @@ public interface LiveAble {
 //    public   void  run();
 
     //  将func1 和func2两个方法封装到默认方法 func
+    default void func(){
+        func1();
+        func2();
+    }
     // 私有方法
     private void func1(){
         System.out.println("func1跑起来");
     }
 
     // func2
+    private void func2(){
+        System.out.println("func2跑起来");
+    }
 
 }
