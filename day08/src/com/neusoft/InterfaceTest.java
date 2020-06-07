@@ -1,5 +1,7 @@
 package com.neusoft;
 
+import java.util.ArrayList;
+
 /**
  * @author Eric Lee
  * @date 2020/6/7 14:25
@@ -13,7 +15,7 @@ public class InterfaceTest {
 //        Dog dog = new Dog();
 //        dog.show();
         new Dog().method();
-
+        new ArrayList<>();
 
     }
 }

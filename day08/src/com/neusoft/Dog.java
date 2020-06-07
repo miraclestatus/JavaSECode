@@ -16,6 +16,11 @@ public class Dog extends Animal implements LiveAble, Pet {
     }
 
     @Override
+    public void eat() {
+        System.out.println("Dog 在造狗粮");
+    }
+
+    @Override
     public void show() {
         System.out.println("show()重写");
     }
