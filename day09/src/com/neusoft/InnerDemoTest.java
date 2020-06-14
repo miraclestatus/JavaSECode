@@ -7,7 +7,7 @@ package com.neusoft;
 public class InnerDemoTest {
     public static void main(String[] args) {
         // 创建外部类对象
-        Person person = new Person();
+        Person person = new Person("皮皮虾", 14);
         // 创建内部类对象
         // 格式外部类名.内部类名 对象名 = new外部类型（）.new 内部类型();
 
